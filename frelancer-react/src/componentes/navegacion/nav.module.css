@@ -1,0 +1,35 @@
+.titulo span {
+    font-size: 2rem;
+}
+.navBg {
+    background-color: var(--secundario);
+}
+.navegacionPrincipal {
+    display: flex;
+    flex-direction: column;
+    max-width: 120rem;
+    margin: 0 auto;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+@media (min-width: 768px) {
+    .navegacionPrincipal {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.navegacionPrincipal a {
+    display: block;
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.navegacionPrincipal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
