@@ -1,0 +1,21 @@
+.navegador {
+    background-color: var(--moradoOscuro);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+  gap: 2rem; 
+  }
+  .navEnlace {
+    font-family: var(--Fuenteprincipal);
+    color: var(--blanco);
+    font-size: 3rem;
+    
+  }
+  .navEnlace:last-of-type {
+    margin-right: 0;
+  }
+
+  .navEnlace:hover {
+    color: var(--amarailloOscuro);
+  }
+  

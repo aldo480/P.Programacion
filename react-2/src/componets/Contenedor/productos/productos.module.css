@@ -1,0 +1,18 @@
+.productos   {
+    background-color: var(--moradoOscuro);
+    padding: 1rem;
+  }
+  .productoNombre {
+    font-size: 4rem;
+  }
+  .productoPrecio {
+    font-size: 2.8rem;
+    color: var(--amaraillo)
+  }
+  .productoNombre,
+  .productoPrecio {
+    font-family: var(--Fuenteprincipal);
+    margin: 1rem 0;
+    text-align: center;
+    line-height: 1,2rem;
+  }

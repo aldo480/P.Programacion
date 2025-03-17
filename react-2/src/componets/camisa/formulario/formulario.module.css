@@ -1,0 +1,27 @@
+.formulario {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .formularioCampo {
+    border: 1rem solid var(--moradoOscuro);
+    background-color: transparent;
+    color: var(--blanco);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  .formularioSubmit {
+    border: none;
+    background-color: var(--amaraillo);
+    font-family: var(--Fuenteprincipal);
+    font-size: 2rem;
+    padding: 2rem;
+    transition: background-color .3s ease;
+    grid-column: 1 / 3;
+  }
+  .formularioSubmit:hover {
+    cursor: pointer;
+    background-color: var(--amarailloOscuro);
+  }
+  
