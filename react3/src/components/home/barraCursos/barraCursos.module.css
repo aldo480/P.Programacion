@@ -1,0 +1,32 @@
+.boton {
+    display: block;
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none;
+    background-color: var(--primario);
+}
+.widgetCurso {
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+.widgetCurso:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+.widgetCursoLabel {
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+.widgetCursoInfo {
+    font-weight: normal;
+}
+.widget-cursoLabel,
+.widget-cursoInfo {
+    font-size: 2rem;
+}

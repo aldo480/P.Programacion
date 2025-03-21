@@ -1,0 +1,13 @@
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.campoLabel {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+.campoField {
+    flex: 1;
+    border: 1px solid var(--gris);
+}

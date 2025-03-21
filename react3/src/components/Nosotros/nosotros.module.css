@@ -1,0 +1,14 @@
+.contenedor {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+@media (min-width: 768px) {
+    .sobreNosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+.centrarTexto {
+    text-align: center;
+}

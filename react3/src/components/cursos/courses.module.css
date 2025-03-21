@@ -1,0 +1,7 @@
+.contenedor {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+.centrarTexto {
+    text-align: center;
+}

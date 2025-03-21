@@ -1,0 +1,15 @@
+.contenidoPrincipal {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+@media (min-width: 768px) {
+    .contenidoPrincipal {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
+.cursos {
+    list-style: none;
+    padding: 0;
+}

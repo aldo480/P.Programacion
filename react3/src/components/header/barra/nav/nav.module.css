@@ -1,0 +1,6 @@
+.navegacionEnlace {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+}
